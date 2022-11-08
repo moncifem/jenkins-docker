@@ -32,8 +32,6 @@ node {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
         }
-        steps{
-            sh 'echo "hello world"'
-        }
+        sh 'echo "hello world"'
     }
 }
